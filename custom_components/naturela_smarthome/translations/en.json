@@ -1,0 +1,42 @@
+{
+  "title": "Naturela Flat Water Heater",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Naturela Flat water heater setup",
+        "description": "Enter the device ID and the ath cookie",
+        "data": {
+          "device_id": "Device ID",
+          "ath_cookie": "Ath cookie"
+        }
+      }
+    },
+    "error": {
+      "invalid_length": "Device ID must be exactly 4 characters!",
+      "cannot_connect": "Couldn't authenticate with the provided data!",
+      "unsupported_device": "This device type is not supported!"
+    },
+    "abort": {
+      "already_configured": "Device is already configured!"
+    }
+  },
+  "entity": {
+    "select": {
+      "boiler_mode": {
+        "name": "Boiler Mode",
+        "state": {
+          "OFF": "Off",
+          "Heating": "Heating",
+          "Smart": "Smart",
+          "Study": "Study",
+          "Timers": "Timers"
+        }
+      }
+    },
+    "switch": {
+      "heater_boost": {
+        "name": "Heater Boost"
+      }
+    }
+  }
+}

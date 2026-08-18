@@ -1,0 +1,42 @@
+{
+  "title": "Naturela Flat Water Heater",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Настройка на Naturela Flat Water Heater",
+        "description": "Въведете идентификатор на устройството (Device ID) и 'ath cookie'",
+        "data": {
+          "device_id": "Device ID",
+          "ath_cookie": "Ath cookie"
+        }
+      }
+    },
+    "error": {
+      "invalid_length": "Идентификаторът на устройството трябва да бъде точно 4 знака!",
+      "cannot_connect": "Неуспешно удостоверяване с предоставените данни!",
+      "unsupported_device": "Този тип устройство не се поддържа!"
+    },
+    "abort": {
+      "already_configured": "Устройството вече е конфигурирано!"
+    }
+  },
+  "entity": {
+    "select": {
+      "boiler_mode": {
+        "name": "Режим на бойлера",
+        "state": {
+          "OFF": "Изключен",
+          "Heating": "Нагряване",
+          "Smart": "Смарт",
+          "Study": "Обучение",
+          "Timers": "Таймери"
+        }
+      }
+    },
+    "switch": {
+      "heater_boost": {
+        "name": "Heater Boost"
+      }
+    }
+  }
+}
