@@ -14,11 +14,11 @@ from .const import DOMAIN
 from .api import NaturelaDataUpdateCoordinator
 
 STATE_MAP = {
-    0: "OFF",
-    1: "Heating",
-    2: "Smart",
-    3: "Study",
-    4: "Timers",
+    0: "off",
+    1: "heating",
+    2: "smart",
+    3: "study",
+    4: "timers",
 }
 # Reverse map for setting state
 NAME_TO_STATE = {v: k for k, v in STATE_MAP.items()}

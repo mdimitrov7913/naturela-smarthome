@@ -25,11 +25,11 @@
       "boiler_mode": {
         "name": "Boiler Mode",
         "state": {
-          "OFF": "Off",
-          "Heating": "Heating",
-          "Smart": "Smart",
-          "Study": "Study",
-          "Timers": "Timers"
+          "off": "Off",
+          "heating": "Heating",
+          "smart": "Smart",
+          "study": "Study",
+          "timers": "Timers"
         }
       }
     },

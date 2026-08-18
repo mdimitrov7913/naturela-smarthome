@@ -2,12 +2,12 @@
   "domain": "naturela_smarthome",
   "name": "Naturela Smarthome",
   "codeowners": ["@mdimitrov7913"],
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/mdimitrov7913/naturela-smarthome",
-  "issue_tracker": "https://github.com/mdimitrov7913/naturela-smarthome/issues",
-  "iot_class": "cloud_polling",
   "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/mdimitrov7913/naturela-smarthome/issues",
   "requirements": [],
-  "version": "1.0.0",
-  "config_flow": true
+  "version": "1.0.0"
 }
